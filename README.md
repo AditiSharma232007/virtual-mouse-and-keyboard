@@ -4,12 +4,12 @@ A webcam-based virtual mouse and keyboard project inspired by the demo you share
 
 It uses hand landmarks from MediaPipe:
 
-- Move the mouse with your index fingertip.
+- Move the mouse with your index finger tip.
 - Left click by pinching index finger + thumb.
-- Right click by pinching middle finger + thumb.
-- Scroll by raising index + middle finger and moving up/down.
+- Right click by pinching the middle finger + thumb.
+- Scroll by raising the index + middle finger and moving up/down.
 - Type by hovering over the on-screen keyboard and pinching.
-- By default, typed text stays inside the app so random Windows apps do not open.
+- By default, typed text stays inside the app, so random Windows apps do not open.
 - Use the virtual `EXIT` key to close the app from the webcam window.
 
 The project includes `models/hand_landmarker.task`, the MediaPipe hand model used by the current MediaPipe Tasks API.
@@ -57,6 +57,6 @@ python main.py --control-windows
 
 - Use a bright room and keep your hand fully visible.
 - Keep your palm facing the camera.
-- Start slowly. Pinches intentionally have a short cooldown so one gesture does not spam clicks or letters.
+- Start slowly. Pinches intentionally have a short cooldown, so one gesture does not spam clicks or letters.
 - On Windows, your first run may ask for camera permission.
 - Keep `Windows: off` while practicing. Turn it on with `w` only when you actually want gestures to control your real mouse/keyboard.
